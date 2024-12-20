@@ -1,5 +1,5 @@
 # GrainSizeEstimation
-A collection of Python scripts used for simulating microstructures and estimating grain size distributions. These scripts were used in the paper: "Estimation of 3D grain size distributions from 2D sections in real and simulated microstructures", by: T. van der Jagt, M. Vittorietti, K. Sedighiani, C. Bos, G. Jongbloed. Hence, these scripts may be used to reproduce the results in this paper.
+A collection of Python scripts used for simulating microstructures and estimating grain size distributions. These scripts were used in the paper: "Estimation of 3D grain size distributions from 2D sections in real and simulated microstructures", by: T. van der Jagt, M. Vittorietti, K. Sedighiani, C. Bos, G. Jongbloed. These scripts may be used to reproduce the results in this paper.
 
 # Dependencies
 These scripts require that the Python packages [pysizeunfolder](https://github.com/thomasvdj/pysizeunfolder) and [vorostereology](https://github.com/thomasvdj/vorostereology) are installed.
