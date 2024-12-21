@@ -4,8 +4,6 @@ from math import pi
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pysizeunfolder as pu
-mpl.rc('font', **{'family': 'serif', 'sans-serif': ['Computer Modern Sans serif']})
-mpl.rc('text', usetex=True)
 
 
 tetra_sqrt_areas = np.sqrt(pickle.load(open("tetra_G_sample.pkl", "rb")))
