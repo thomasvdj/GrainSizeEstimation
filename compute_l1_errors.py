@@ -1,12 +1,9 @@
 import numpy as np
 from math import exp
 import pickle
-import matplotlib as mpl
 from scipy.stats import lognorm, expon, gamma
 from statsmodels.distributions import ECDF, StepFunction
 import matplotlib.pyplot as plt
-mpl.rc('font', **{'family': 'serif', 'sans-serif': ['Computer Modern Sans serif']})
-mpl.rc('text', usetex=True)
 rng = np.random.default_rng(0)
 
 m = 100
