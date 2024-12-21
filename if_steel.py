@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 import pickle
 import time
 import pysizeunfolder as pu
-mpl.rc('font', **{'family': 'serif', 'sans-serif': ['Computer Modern Sans serif']})
-mpl.rc('text', usetex=True)
 rng = np.random.default_rng(1)
 max_double = np.finfo(np.double).max*0.1
 
