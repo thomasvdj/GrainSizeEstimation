@@ -12,7 +12,7 @@ Once finished, you may run visualize_gs_all_shapes.py to plot the results.
 It is recommended to run the following scripts in the following order:
 - generate_lognormal.py: Generates 100 Laguerre-Voronoi diagrams and cross sections
 - estimate_volume_dist.py: Computes 100 estimates (for each shape) of grain size distributions based on the cross sections
-- visualize_lognormal.py: Visualize the 100 (biased) grain volume estimates for a given shape
+- visualize_lognormal.py: Visualize the 100 grain volume estimates for a given shape
 - compute_errors.py: Compute supremum errors for all estimates of all shapes
 - compute_l1_errors.py: Compute L1 errors for all estimates of all shapes
 - summary_table.py: Summarize the computed errors in a table
