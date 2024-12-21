@@ -3,9 +3,6 @@ import vorostereology as vs
 import pysizeunfolder as pu
 import numpy as np
 import pickle
-import matplotlib as mpl
-mpl.rc('font', **{'family': 'serif', 'sans-serif': ['Computer Modern Sans serif']})
-mpl.rc('text', usetex=True)
 rng = np.random.default_rng(1)
 max_double = 1000000.0
 
